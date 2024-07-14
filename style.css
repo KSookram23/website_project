@@ -1,0 +1,99 @@
+h1{
+	color:royalblue;
+	font-size: 75px;
+	text-align: center;
+	font-family: Algerian;
+
+}
+
+body{
+	background-color: #CCCCFF;
+	font-family: monospace;
+	font-size: 15px;
+	margin: 0;
+	font color: black;
+
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position: relative;
+	top: 0;
+	background-color: midnightblue;
+
+}
+
+li{
+	float: left;
+
+}
+
+li a{
+	float: left;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	color:ghostwhite;
+	font-size: 30px;
+	font-family: monospace;
+
+}
+
+li a:hover{
+	color: midnightblue;
+	background-color: ghostwhite;
+}
+
+img.social:hover{
+	opacity: .60;
+}
+
+div.section{
+	display: black;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 5px;
+	border-color: midnightblue;
+	border-style: solid;
+}
+
+div.high{
+	display: black;
+	background-color: midnightblue;
+	margin: auto;
+	border: 5px;
+	border-color: midnightblue;
+	border-style: inset;
+	background-clip: padding-box;
+}
+
+.high {
+  position: relative;
+  display: inline-block;
+}
+
+.clipped-image {
+  clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+  background-color: midnightblue;
+}
+
+.clipped-text{
+	font-size: 13px;
+	font-family: monospace;
+	background-color: midnightblue;
+	color: ghostwhite;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center; /* Center the container */
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
